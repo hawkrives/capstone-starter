@@ -14,7 +14,7 @@ var buildFilename = require('./webpack/build-filename')
 var isDev = (process.argv[1] || '').indexOf('webpack-dev-server') !== -1
 var isTest = (process.argv[1] || '').indexOf('karma') !== -1
 
-var entryPoint = './src/index.js'
+var entryPoint = './source/index.js'
 var outputFolder = 'build/'
 
 var urlLoaderLimit = 10000
